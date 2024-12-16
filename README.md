@@ -14,15 +14,15 @@ This Stock Market Investment Platforms is an intuitive web application designed 
 ## Screenshots
 
 
-![App Screenshot](screenshots/picture1.png)
+![App Screenshot](screenshots/Picture1.png)
 
-![App Screenshot](screenshots/picture2.png)
+![App Screenshot](screenshots/Picture2.png)
 
-![App Screenshot](screenshots/picture3.png)
+![App Screenshot](screenshots/Picture3.png)
 
-![App Screenshot](screenshots/picture4.png)
+![App Screenshot](screenshots/Picture4.png)
 
-![App Screenshot](screenshots/picture5.png)
+![App Screenshot](screenshots/Picture5.png)
 
-![App Screenshot](screenshots/picture6.png)
+![App Screenshot](screenshots/Picture6.png)
 
