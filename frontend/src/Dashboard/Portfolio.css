@@ -1,0 +1,205 @@
+.portfolio-page {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 100px;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  color: #f0e9e9;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.portfolio-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.portfolio-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.portfolio-item {
+  font-family: 'Arima', serif;
+  font-size: 1em;
+  color: transparent;
+  background-image: linear-gradient(45deg, #b8a14f, #8f6f3f, #706040);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: 700;
+  text-align: center;
+  margin: 40px 20px;
+  padding: 20px;
+  line-height: 1.4;
+  box-shadow: 0 4px 20px rgba(255, 215, 0, 0.3);
+  border-radius: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 250px;
+}
+
+.portfolio-actions button {
+  margin-right: 20px;
+}
+
+.add-portfolio {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.balance-section {
+  text-align: center;
+}
+
+.balance-amount {
+  font-size: 2em;
+  color: #1f8b24;
+}
+
+.balance-change {
+  color: #28a745;
+}
+
+.buy-stocks {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #8f6f3f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.assets-section {
+  margin-top: 20px;
+}
+
+.assets-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.assets-table th,
+.assets-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.asset-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.price-change.negative {
+  color: red;
+}
+
+.profit {
+  color: #28a745;
+}
+
+
+
+.right-column {
+
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.right-column h2 {
+  margin-bottom: 10px;
+}
+
+.expense-history {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.expense-history li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.icon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #d9534f;
+}
+
+.icon.edit {
+  color: #5bc0de;
+  margin-right: 50px;
+}
+
+.icon.delete {
+  color: #d9534f;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  background-image: linear-gradient(45deg, #4a3d0d, #a87529, #706040);
+
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  background-color: white;
+}
+
+.submit-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #8f6f3f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  color: #b00000;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}

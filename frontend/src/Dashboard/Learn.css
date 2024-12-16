@@ -1,0 +1,57 @@
+/* General Page Styles */
+.learn {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .learn h2 {
+    text-align: center;
+    color: #4CAF50;
+  }
+  
+  /* Video Grid Layout */
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Video Item Styling */
+  .video-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Responsive Iframe Styling */
+  .video-item iframe {
+    width: 100%; /* Ensure the video fits within the container */
+    height: auto;
+  }
+  
+  .video-item h3 {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .video-item p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .video-item iframe {
+      width: 100%;
+      height: 200px; /* Adjust height for smaller screens */
+    }
+  }
+  

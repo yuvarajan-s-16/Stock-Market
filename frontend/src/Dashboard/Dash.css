@@ -1,0 +1,126 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Pacifico&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #000428, #004e92);
+  margin: 0;
+  padding: 0;
+  color: #f5f5f5;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.timedisplay {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f5f5f5;
+}
+
+.welcome-message {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.welcome-message h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em;
+  color: rgba(229, 255, 0, 0.399);
+}
+
+.watchlist {
+  background-color: rgba(42, 42, 42, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.watchlist-heading {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.8em;
+  font-weight: 700;
+  color: hsl(86, 100%, 50%);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-stock {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.watchlist-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ffd700;
+  background-color: #333;
+  color: white;
+  outline: none;
+}
+
+.watchlist-input::placeholder {
+  color: hsl(121, 100%, 50%);
+  opacity: 1;
+}
+
+.watchlist-input:focus {
+  border-color: #ffa500;
+  box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: hsl(129, 100%, 50%);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #ffa500;
+}
+
+.watchlist-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.watchlist-table th,
+.watchlist-table td {
+  padding: 10px;
+  border: 1px solid #555;
+  text-align: left;
+}
+
+.watchlist-table th {
+  background-color: #444;
+  color: hsl(131, 100%, 50%);
+}
+
+.watchlist-table td {
+  background-color: #555;
+  color: #f5f5f5;
+}
+
+/* Red error message */
+.text-red {
+  color: #ff4c4c;
+}

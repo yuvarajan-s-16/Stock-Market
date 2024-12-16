@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: black;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Navigation Styles */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a, nav button {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+nav a:hover, nav button:hover {
+  text-decoration: underline;
+}
+
+/* Logout Button at Top Left */
+.log {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: white;
+  
+}
+
+/* Springboard at Top Right */
+.springboard {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: white;
+}
